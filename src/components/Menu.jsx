@@ -10,6 +10,7 @@ const MenuContainer = styled.div`
   background-color: #3485fd;
   color: white;
   position: fixed;
+  z-index: 999;
   display: flex;
   align-items: center;
   transition: all 0.5s ease-in-out;
@@ -60,7 +61,7 @@ const Email = styled.h3`
 `;
 const Navbtn = styled.div`
   position: fixed;
-  z-index: 100;
+  z-index: 9999;
   top: 0;
   right: 0;
   background-color: #0d6efd;
