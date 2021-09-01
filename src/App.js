@@ -1,4 +1,3 @@
-import { useState } from "react";
 import Footer from "./components/Footer";
 import MusicCard from "./components/MusicCard";
 import Work from "./components/Work";

@@ -15,7 +15,7 @@ const Line = styled.hr`
 
 const Header = () => {
   return (
-    <HeaderContainer className="row">
+    <HeaderContainer>
       <div className="col-12 col-lg-6">
         <h1 className="display-1 fw-bold">Hello, I'm Nathan.</h1>
         <SubHeading className="fw-bolder">

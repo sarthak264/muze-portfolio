@@ -17,6 +17,11 @@ const MenuContainer = styled.div`
     height: auto;
   }
 `;
+const Container = styled.div`
+  @media screen and (min-width: 1119px){
+    max-width: 1140px;
+  }
+`
 const List = styled.ul`
   font-size: 3.5rem;
   font-weight: 700;
@@ -125,7 +130,7 @@ const Menu = () => {
         )}
       </Navbtn>
     <MenuContainer className={!menu ? 'menu':'menu show'}>
-      <div className="container">
+      <Container className="container">
         <List className="ps-0">
           <li>
             <Item href="/">Home</Item>
@@ -154,7 +159,7 @@ const Menu = () => {
             <Email className="mb-0 fw-bolder">hello@johnmalon.com</Email>
           </div>
         </div>
-      </div>
+      </Container>
     </MenuContainer>
     </>
   );
